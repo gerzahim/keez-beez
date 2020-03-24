@@ -1,0 +1,17 @@
+.nav_box{font-size:12px; background:url(../images/nav_top.jpg) no-repeat; padding-top:1px; position:relative; z-index:20;}
+.nav_bg{background:url(../images/content.jpg) repeat; padding:17px 27px 0 26px; margin-right:1px;}
+nav{ position:relative; margin: 0px 0 0 0; background:url(../images/nav_bottom.jpg) 0 bottom no-repeat; padding-bottom:1px;}
+.sf-menu{background:url(../images/menu.jpg) 50% 0 repeat; min-height:42px; padding:13px 0 1px 35px;}
+.sf-menu>li{ background:url(../images/menu_li.png) 0 13px no-repeat; margin: 0 0 0 20px; padding-left:24px;}
+.sf-menu>li:first-child{ margin-left:0; margin-right:0; background:none; padding-left:0;}
+.sf-menu ul {position:absolute;top:-999em;/* left offset of submenus need to match (see below) */ }
+.sf-menu ul li {width:100%}
+.sf-menu>li {float:left;position:relative;}
+.sf-menu>li>a{display:block;position:relative;font-size: 25px; line-height: 30px; color:#878119; text-shadow:1px 1px #e7e38f; text-decoration:none;}
+.sf-menu>li>a:hover,.sf-menu>li.current>a,.sf-menu>li.sfHover>a{ color:#535013;}
+
+/*================================>> 2 Level <<========================================*/
+.sf-menu li:hover ul,.sf-menu li.sfHover ul{left:20px;top:44px;padding:10px 20px;/* match top ul list item height */z-index:99; background:url(../images/menu.jpg) 50% 0 repeat;}
+.sf-menu li li{ margin-bottom:5px;}
+.sf-menu>li li a{ color:#6f6b1d;font-size: 18px; line-height: 22px;text-decoration:none;}
+.sf-menu li li a:hover{ color:#ca4801;}

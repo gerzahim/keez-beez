@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<content>
+	<gallery folder="images/">
+		<item imageUrl="tfile_image1.png">
+			<slogan><![CDATA[<font letterspacing="0" size="48">Try Our</font>]]></slogan>
+			<slogan><![CDATA[<font letterspacing="0" size="48">Delicious</font>]]></slogan>
+			<slogan><![CDATA[<font letterspacing="0" size="48">Honey</font>]]></slogan>
+			<button_text linkUrl="store"><![CDATA[<font letterspacing="0" size="24" >buy here</font>]]></button_text>
+		</item>
+	
+		<item imageUrl="tfile_image1.png">
+			<slogan><![CDATA[<font letterspacing="0" size="48">100%</font>]]></slogan>
+			<slogan><![CDATA[<font letterspacing="0" size="48">Pure</font>]]></slogan>
+			<slogan><![CDATA[<font letterspacing="0" size="48">Honey</font>]]></slogan>
+			<button_text linkUrl="store"><![CDATA[<font letterspacing="0" size="24" >buy here</font>]]></button_text>
+		</item>
+	
+		<item imageUrl="tfile_image1.png">
+			<slogan><![CDATA[<font letterspacing="0" size="48">The Best</font>]]></slogan>
+			<slogan><![CDATA[<font letterspacing="0" size="48">Quality</font>]]></slogan>
+			<slogan><![CDATA[<font letterspacing="0" size="48">Honey</font>]]></slogan>
+			<button_text linkUrl="store"><![CDATA[<font letterspacing="0" size="24" >buy here</font>]]></button_text>
+		</item>
+		
+	</gallery>
+</content>

@@ -1,0 +1,65 @@
+.pikachoose {width:707px; margin: 0 auto;}
+.pika-stage {position: relative; height: 655px;}
+
+/*if you change the padding on pika-stage you must adjust the top left of this to match! */
+.pika-stage .main-image {position: absolute; top: 0px; left: 0px;}
+.pika-stage .pika-aniwrap{position: absolute; top: 0px; left: 0px;}
+.pika-stage .pika-ani {position:relative; display: none;z-index:2;margin:0 auto;}
+.pika-stage img {border:0; height:100%;}
+
+
+.pika-thumbs {margin: 0px 0 0 0px; padding: 0; overflow: hidden;width: 230px;}
+.pika-thumbs li {list-style-type: none;width: 230px !important; height:166px; overflow:hidden; float:none !important; }
+
+.pika-thumbs li .clip {position:relative; height:166px; width:230px; text-align: left; vertical-align: middle; overflow: hidden;}
+.pika-thumbs li .clip img {height:176px !important; width:230px !important; left:0 !important;  cursor: pointer; }
+/*for the tool tips*/
+.pika-tooltip{font-size:12px; position:absolute; color:#000; padding:3px;  display:none;}
+.pika-counter{position: absolute; display:none;}
+.pika-textnav {display:none;}
+
+/* jCarousel Styles */
+/*if you're not using the carousel you can delete everything below this */
+jcarousel-skin-pika{height: 520px; overflow:hidden;}
+.jcarousel-skin-pika .jcarousel-container-vertical { margin: 0 0 0 0; position:absolute !important; right:0; top:127px;}
+.jcarousel-skin-pika .jcarousel-clip-vertical { overflow:hidden;height: 521px;}
+.jcarousel-skin-pika .jcarousel-item-vertical { margin-bottom:10px;}
+
+
+/**
+ *  vertical Buttons
+ */
+.jcarousel-next-vertical {
+    position: absolute;
+    bottom: -49px;
+    left: 101px;
+    cursor: pointer;
+    background: transparent url(../images/pagination_next.png) no-repeat 0 top;
+}
+
+ .jcarousel-next-vertical:hover {
+    background-position: 0px bottom;
+}
+ .jcarousel-next-disabled-vertical,
+.jcarousel-next-disabled-vertical:hover {
+    cursor: default;
+    background-position: 0 bottom;
+}
+
+.jcarousel-prev-vertical {
+    position: absolute;
+    top: -48px;
+    left:100px;
+    cursor: pointer;
+    background:url(../images/pagination_prev.png) 0 top no-repeat;
+}
+ .jcarousel-prev-vertical:hover {
+    background-position: 0px top;
+}
+ .jcarousel-prev-disabled-vertical,
+ .jcarousel-prev-disabled-vertical:hover {
+    cursor: default;
+    background-position: 0 top ;
+}
+.jcarousel-prev-vertical, .jcarousel-next-vertical{display:block;width: 29px;height: 28px;}
+.jcarousel-prev-vertical:hover, .jcarousel-next-vertical:hover{background-position: 0 -28px;}

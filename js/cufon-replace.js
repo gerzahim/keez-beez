@@ -1,0 +1,1 @@
+Cufon.replace('header .slogan, .noflash .offer',{fontFamily:'KleinSlabserif-Light',hover:true})
